@@ -12,7 +12,7 @@ RUN apk upgrade --update && \
     gem install --no-document jekyll -v 2.5 && \
     gem install --no-document jekyll-paginate jekyll-sass-converter webrick && \
     gem install --no-document jekyll-sitemap jekyll-feed jekyll-redirect-from && \
-    gem install --no-document jekyll-theme-cayman bigdecimal && \
+    gem install --no-document jekyll-theme-cayman bigdecimal bundler && \
 #    apk del build-base zlib-dev ruby-dev readline-dev libxml2-dev && \
     rm -rf /root/src /tmp/* /usr/share/man /var/cache/apk/* && \
     apk search --update && \
